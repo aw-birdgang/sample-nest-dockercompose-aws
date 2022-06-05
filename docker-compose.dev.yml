@@ -7,7 +7,7 @@ services:
     volumes:
       - ./mysqldata:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=funcoding
-      - MYSQL_DATABASE=fundb
+      - MYSQL_ROOT_PASSWORD=birdgang
+      - MYSQL_DATABASE=birdgang
     ports:
       - "3306:3306"
