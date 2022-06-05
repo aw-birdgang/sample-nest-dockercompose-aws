@@ -4,7 +4,7 @@ services:
   app:
     build:
       context: ./FLASK_DOCKER
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile
     links:
       - "db:mysqldb"
     ports:
